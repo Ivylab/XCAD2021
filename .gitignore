@@ -1,3 +1,4 @@
 __pycache__/
 .vscode/
-parameters/
+parameters/ChestX-ray14/ChestX-ray14_params_0000012_0014724.pt
+parameters/GAN_ChestX-ray14/ChestX-ray14_params_0000034_0036297.pt
