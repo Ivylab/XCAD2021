@@ -4,7 +4,7 @@
 In this page, interpretation of lesional detection via counterfactual generation framework is devised to provide visual interpretation for classifying chest X-ray images.
 
 
-![image_2018-11-28 23_07_21](https://user-images.githubusercontent.com/44894722/49157188-8942c880-f362-11e8-9719-e73f15ab3fde.png)
+tps://user-images.githubusercontent.com/44894722/49157188-8942c880-f362-11e8-9719-e73f15ab3fde.png)
 
 
 
