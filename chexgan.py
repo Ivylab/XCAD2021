@@ -11,7 +11,7 @@ from glob import glob
 warnings.filterwarnings("ignore")
 
 
-class CheXNet(object):
+class CheXGAN(object):
     def __init__(self, args):
         # Define Variables
         self.data_dir = args.data_dir
@@ -57,7 +57,7 @@ class CheXNet(object):
         self.NetG.module.load_state_dict(params["NetG"])
         self.NetD.module.load_state_dict(params["NetD"])
 
-    def chexgan(self):
+    def generation(self):
         # Set up Random Seed
         random.seed(self.v_seed)
 

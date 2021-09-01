@@ -1,7 +1,7 @@
 import argparse
 from ops import check_dir
 import warnings
-from chexnet import *
+from chexgan import *
 
 warnings.filterwarnings("ignore")
 
@@ -28,7 +28,7 @@ def main():
     check_dir("parameters")
 
     # Declare Class
-    model = CheXNet(args)
+    model = CheXGAN(args)
 
     # Build Graph
     model.build_model()
@@ -36,7 +36,7 @@ def main():
 
     # Run CheXGAN
     print(" [*] CheXGAN started!")
-    model.chexgan()
+    model.generation()
     print(" [*] CheXGAN finished!")
 
 
