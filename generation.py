@@ -2,7 +2,7 @@ from ops import *
 from skimage.transform import resize
 
 
-def chestGAN(
+def generateImg(
     imgBatch,
     boxLabelBatch,
     rootBatch,

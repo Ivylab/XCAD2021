@@ -115,7 +115,7 @@ class CheXGAN(object):
         in_img, gt, img_root, bbox, boxlabel = test_dataloader.__iter__().next()
 
         for i_idx in range(in_img.size(0)):
-            chestGAN(
+            generateImg(
                 in_img,
                 boxlabel,
                 img_root,
