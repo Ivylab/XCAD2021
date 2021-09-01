@@ -9,7 +9,7 @@ In this page, interpretation of lesional detection via counterfactual generation
 * numpy 1.20.3
 * h5py 3.4.0
 * pytorch 1.6.0
-* Pillow 8.3.1
+* pillow 8.3.1
 * scipy 1.6.2
 * torchray 1.0.0.2
 * torchvision 0.7.0
